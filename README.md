@@ -34,7 +34,7 @@ Since the transformer model processes the input sequence in parallel, it does no
 
 Transformer models have demonstrated significant effectiveness across a variety of NLP tasks. Presently, numerous pre-trained models are freely accessible. Utilizing these models is a compelling approach for political analysis, as it necessitates a comprehensive foundational knowledge to identify names, phrases, and the behavior of individuals behind the tweets.
 
-## Project Plan for the Rest of the Term:
+## Project Plan for Future:
 - Data pre-processing: We plan to kick-off the project with the dataset pre-processing tasks. We have finalized our datasets which will be currently open datasets from Kaggle covering the Tweets of 44th Canadian General Elections. The data columns will be analysed for the different correlation amongst them. We will also plot different Histograms, Bar plots and Stacker'd charts to understand the dataset better.
 - Model Selection: As we finish pre-processing our dataset, we begin working on the NLP model. We would construct a basic model using Naïve Bayes approach for basic sentiment analysis. As we get a basic idea of the model’s performance, we would move forward to develop a Transformer based model using Google’s BERT-base model. We would be using Hugging Face model repository to import our base model and fine-tune it to our needs based on the initial Naïve Bayes model.
 - Model Evaluation: We’d understand our model’s performance based on different evaluation metrics like F1 score, accuracy, and precision. As we finish analysing our model, we’d fine-tune our Transformer model’s hyperparameters and plot different curves to showcase if the model is overfitting or underfitting.
